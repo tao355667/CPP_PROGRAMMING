@@ -8,7 +8,7 @@ using namespace std;
 int main()
 {
     int i=0,j=0,n;//i为正数个数,j为负数个数
-    cout<<"Enter some integers please(enten 0 to quit):"<<endl;
+    cout<<"Enter some integers please(enter 0 to quit):"<<endl;
     cin>>n;
 
     while(n!=0)
