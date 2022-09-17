@@ -1,3 +1,6 @@
+/*
+2-1 第一个C++程序
+*/
 #include<iostream>
 #include<stdlib.h>
 using namespace std;
