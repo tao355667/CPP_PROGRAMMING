@@ -1,5 +1,6 @@
 /*
-2-7 用do...while语句编程,求1~10的和
+2-7 P47
+用do...while语句编程,求1~10的和
 */
 #include<stdio.h>
 #include<iostream>

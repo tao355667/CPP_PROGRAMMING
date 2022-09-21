@@ -1,5 +1,6 @@
 /*
-2-1 第一个C++程序
+2-1 P19
+第一个C++程序
 */
 #include<iostream>
 #include<stdlib.h>
