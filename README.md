@@ -28,3 +28,6 @@ VSCode自动编译生成 .exe文件很烦,所以要隐藏掉
 文件，首选项，搜索 files.exclude
 
 在后面添加`**/*.exe`即可
+
+## 一些过程
+1. 在书中了解到在cpp文件中调用c语言函数时,最好使用`#include<cstdio>`而非`#include<stdio.h>`
