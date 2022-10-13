@@ -1,0 +1,15 @@
+/*
+习题4-15 P149
+根据书中实例4-3中关于Circle类定义的源代码绘出改类的UML图形表示
+*/
+
+@startuml Circle
+
+class Circle{
+    - rdius:float
+    + Circle(r:float)
+    + circumference():float
+    + area():float
+}
+
+@enduml

@@ -1,0 +1,20 @@
+/*
+习题4-17 P149
+在一个大学的选课系统中。包括两个类：CourseSchedule类、Course类，其关系为：
+CourseSchedule类中的成员函数add和remove的参数是Course类的对象，请通过UML
+方法显式表示出这种依赖关系
+*/
+
+@startuml 4-17
+
+class CourseSchedule{
+    + add(:Course)
+    + remove(:Course)
+}
+
+class Course{
+}
+
+CourseSchedule --|> Course
+
+@enduml

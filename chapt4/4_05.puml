@@ -1,7 +1,3 @@
-# 4.5  P129
-采用UML的方法来描述例4-4中Line类和Point类的关系
-使用vscode中的plantuml插件完成
-```
 
 @startuml Line & Point
 
@@ -26,5 +22,3 @@ Line "1..*" *--> "2"Point
 Line ..|> Point
 
 @enduml
-
-```

@@ -49,7 +49,9 @@ Line::Line(Line &l):p1(l.p1),p2(l.p2){
 }
 int main()
 {
+    //定义两个Point类的对象
     Point myp1(1,1),myp2(4,5);
+    //用Point类的对象定义Line类的对象
     Line line(myp1,myp2);
     Line line2(line);
     cout<<"The length of the line is: ";

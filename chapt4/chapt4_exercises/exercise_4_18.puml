@@ -1,0 +1,19 @@
+/*
+习题4-18 P149
+在一个学校院系人员信息系统中，需要对院系（Department）和教师（Teacher）之间的
+关系进行部分建模，其关系描述为：每个Teacher可以属于零个或多个Department的成员。
+而每个Department至少包含一个teacher作为成员。
+根据以上关系绘制出相应的UML类图
+*/
+
+@startuml 4-18
+
+class Department{
+}
+
+class Teacher{
+}
+
+Department "0..*" o--|> "1..*" Teacher
+
+@enduml

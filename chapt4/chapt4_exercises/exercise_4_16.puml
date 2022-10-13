@@ -1,0 +1,23 @@
+/*
+习题4-16 P149
+根据下面的C++代码绘出相应的UML图形表示出类ZRF、类SSH和类Person之间的继承关系
+*/
+
+@startuml 4-16
+
+class Person{
+    - Name:char
+    - Age:int
+    + ~Person()
+    + Person(right:const Person&)
+}
+class ZRF{
+    # Person()
+}
+class SSH{
+    - Person()
+}
+ZRF --|> Person
+SSH --|> Person
+
+@enduml
