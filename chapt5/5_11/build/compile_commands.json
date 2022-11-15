@@ -1,0 +1,12 @@
+[
+{
+  "directory": "D:/code/CPP_PROGRAMMING/chapt5/5_11/build",
+  "command": "C:\\mingw64\\bin\\g++.exe    -g   -Wall -g -o CMakeFiles\\my_cmake_5_11.dir\\5_11.obj -c D:\\code\\CPP_PROGRAMMING\\chapt5\\5_11\\5_11.cpp",
+  "file": "D:/code/CPP_PROGRAMMING/chapt5/5_11/5_11.cpp"
+},
+{
+  "directory": "D:/code/CPP_PROGRAMMING/chapt5/5_11/build",
+  "command": "C:\\mingw64\\bin\\g++.exe    -g   -Wall -g -o CMakeFiles\\my_cmake_5_11.dir\\account.obj -c D:\\code\\CPP_PROGRAMMING\\chapt5\\5_11\\account.cpp",
+  "file": "D:/code/CPP_PROGRAMMING/chapt5/5_11/account.cpp"
+}
+]
