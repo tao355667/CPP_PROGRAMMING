@@ -45,7 +45,8 @@
         "iomanip": "cpp",
         "string": "cpp",
         "xlocmon": "cpp",
-        "xloctime": "cpp"
+        "xloctime": "cpp",
+        "random": "cpp"
     },
     "cmake.configureOnOpen": false
 }

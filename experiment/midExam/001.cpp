@@ -11,6 +11,10 @@ public:
         b1 = i;
         cout << "B1::" << b1 << endl;
     }
+    ~B1()
+    {
+        cout << "B1::" << b1 << endl;
+    }
 };
 class B2
 {
@@ -21,6 +25,10 @@ public:
     {
         b2 = i;
         cout << "B2::" << b2 << endl;
+    }
+    ~B2()
+    {
+        cout << "B3::" << b2 << endl;
     }
 };
 class B3
@@ -33,12 +41,16 @@ public:
         b3 = i;
         cout << "B3::" << b3 << endl;
     }
+    ~B3()
+    {
+        cout << "B3::" << b3 << endl;
+    }
 };
 class D
 {
     int d;
-    B1 b1;
     B2 b2;
+    B1 b1;
     B3 b3;
 
 public:
